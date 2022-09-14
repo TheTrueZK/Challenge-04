@@ -9,16 +9,18 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
 </head>
 <body>
-    <h1 id="question">Question</h1>
-    <div id="answers">
-        <button class="btn">Answer 1</button>
-        <button class="btn">Answer 2</button>
-        <button class="btn">Answer 3</button>
-        <button class="btn">Answer 4</button>
+    <div id="question-container" class="hide">
+        <h1>Question</h1>
+        <div>
+            <button class="btn">Answer 1</button>
+            <button class="btn">Answer 2</button>
+            <button class="btn">Answer 3</button>
+            <button class="btn">Answer 4</button>
+        </div>
     </div>
-    <div id="controls">
-        <button id="start-btn" class="btn">Start</button>
-        <button id="next-btn" class="btn">Next</button>
-    </div>
+    <button id="start-btn">Start</button>
+    <button id="next-btn" class="hide">Next</button>
+    <button id="highscores-btn" class="hide">Highscores</button>
 </body>
+<script src="./assets/js/script.js"></script>
 </html>
